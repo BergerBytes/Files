@@ -890,7 +890,7 @@ public extension Folder {
     }
 }
 
-#if os(iOS) || os(tvOS) || os(macOS)
+#if os(iOS) || os(tvOS) || os(macOS) || os(visionOS)
 public extension Folder {
     /// Resolve a folder that matches a search path within a given domain.
     /// - parameter searchPath: The directory path to search for.

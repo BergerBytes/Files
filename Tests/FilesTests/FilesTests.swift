@@ -945,7 +945,7 @@ extension FilesTests {
 }
 #endif
 
-#if os(iOS) || os(tvOS) || os(macOS)
+#if os(iOS) || os(tvOS) || os(macOS) || os(visionOS)
 extension FilesTests {
     func testAccessingLibraryFolder() {
         XCTAssertNotNil(Folder.library, "Library folder should be available.")
